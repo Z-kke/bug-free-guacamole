@@ -1,6 +1,7 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { MagicButton } from "./ui/MagicButton.tsx";
 
 const Hero = () => {
   return (
@@ -31,6 +32,9 @@ const Hero = () => {
               Hey, I am Saku Arho, a Fullstack Developer based in Espoo,
               Finland.
             </p>
+            <a href="#about">
+              <MagicButton title="Show my work" />
+            </a>
           </div>
         </div>
       </div>
