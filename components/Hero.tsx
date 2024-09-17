@@ -1,5 +1,6 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
@@ -22,6 +23,14 @@ const Hero = () => {
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
               Dynamic rizz with Next.js
             </h2>
+            <TextGenerateEffect
+              className="text-center text-[40px] md:text-5xl lg:text-6xl"
+              words="Transforming Concepts into Seamless Experiences"
+            />
+            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+              Hey, I am Saku Arho, a Fullstack Developer based in Espoo,
+              Finland.
+            </p>
           </div>
         </div>
       </div>
